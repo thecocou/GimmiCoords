@@ -1,6 +1,6 @@
 /*jshint esversion: 6*/
 
-function initZoner(){
+function initGimmiCoords(){
   var Mapa = cargarMapa();  // Cargo Mapa
       editorDePoligonos = drawingMan(Mapa);
       Geocoder = new google.maps.Geocoder();
