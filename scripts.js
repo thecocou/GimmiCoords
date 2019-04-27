@@ -30,10 +30,10 @@ function drawingMan(map){
       drawingControl: true,
       drawingControlOptions: {
         position: google.maps.ControlPosition.TOP_CENTER,
-        drawingModes: 'polygon',       
-      },
-      polygonOptions: {
-        editable: true,
+        drawingModes: 'polygon',
+        polygonOptions: {
+          editable: true,
+        },
       },
     });
     drawingManager.setMap(map);
