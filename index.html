@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-		<script type"text/javascript" src="scripts.js"></script>
-		<meta name="google-site-verification" content="LtsDOPwtiZjQxMpN0lqpTazAUFRi_K4SC-f3UucZtTo" />
-		<title>GimmiCoords</title>
-	</head>
 
-	<body>
-		<div id=sitio>
-			<div id=contenedor>
-				<!-- titulo -->
-				<div id="encabezado">
-				</div>
+<head>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+	<script type"text/javascript" src="scripts.js"></script>
+	<meta name="google-site-verification" content="LtsDOPwtiZjQxMpN0lqpTazAUFRi_K4SC-f3UucZtTo" />
+	<title>GimmiCoords</title>
+</head>
 
-				<!-- buscador -->
-				<div class="buscador">
-					<input type="button" id="nuevoPoly" value="Nuevo Poligono"/>
-				</div>
-
-				<div id="map">	<!-- cargo mapa -->
-					<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMdeNYjHqMpGuP95ngGTCnjqJyg1FBUzA&libraries=drawing&callback=initGimmiCoords"></script>
-				</div>
+<body>
+	<div id=sitio>
+		<div id=contenedor>
+			<!-- titulo -->
+			<div id="encabezado">
 			</div>
 
-			<!-- Barra lateral -->
-			<div id="barraLateral">
-					<p id="tips">crea poligonos y obten las coordenadas.</br></p>
-				<div id="listaDeCoords">
-				</div>
+			<!-- buscador -->
+			<div class="buscador">
+				<input type="button" id="nuevoPoly" value="Nuevo Poligono" />
 			</div>
 
+			<div id="map">
+				<!-- cargo mapa -->
+				<script async defer
+					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMdeNYjHqMpGuP95ngGTCnjqJyg1FBUzA&libraries=drawing&callback=initGimmiCoords"></script>
+			</div>
 		</div>
-	</body>
+
+		<!-- Barra lateral -->
+		<div id="barraLateral">
+			<p id="tips">crea poligonos y obten las coordenadas.</br></p>
+			<div id="listaDeCoords">
+			</div>
+		</div>
+
+	</div>
+</body>
+
 </html>
